@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fff;
+}
+.header{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    width: 86%;
+    height: 400px;
+    margin: 40px auto;
+    background-color: red;
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.content{
+    width: 84%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+}
+
+
+.duyuru{
+    width: 25%;
+    
+}
+.duyuru .ixproje1{width: 100%;
+    height: 200px;
+    background-color: red;
+    background: url(../img/proje3-sonrasi.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.duyuru .ixproje2{width: 100%;
+    height: 200px;
+    background-color: red;
+    background: url(../img/Proje1-sonrası.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.duyuru a{
+    color: black;
+    display: block;
+    text-align: center !important;
+    font-size: 18px;
+    padding: 3px 0;
+    margin-bottom: 8px;
+}
+
+.indexhak{
+    width: 30%;
+    margin: 5px 90px;
+    
+}
+.indexhak p{
+    font-size: 20px;
+}
+.erisim{
+    width: 25%;
+    font-family: -apple-system, BlinkMacSystemFont, 
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.erisim .ixspace1{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    background: url(../img/resim1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.erisim .ixspace2{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    background: url(../img/resim10.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+/*.erisim .blog1 img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}*/
+.erisim a{
+    color: black;
+    display: block;
+    text-align: center !important;
+    font-size: 18px;
+    padding: 3px 0;
+    margin-bottom: 8px;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    border-top: 1px solid black;
+}
+.footer p{
+    color: black;
+}
+.footer div img{
+    width: 100px !important;
+}
+.social i{
+    display: inline-block;
+    padding: 10px;
+    font-size:36px;
+    transition: .2s;
+}
+.social i:hover{
+    transform: scale(1.2);
+}
+.social a:first-child{
+    color: #00acee;
+}
+.social a:last-child{
+    color: #dd2a7b;
+}
+.social a{
+    color:  #3b5998;
+}
+.social a:hover{
+    text-decoration: none;
+}
+/*Blog Sayfası*/
+.blogs{
+    margin-top: 40px;
+    width: 84%;
+    margin: 30px auto;
+    display: flex;
+    height: 250px;
+}
+.resim{
+    flex: 30%;
+    background-color: red;
+    width: 100%;
+    background: url(../img/blogp1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.icerik{
+    flex: 70%;
+    padding: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    border-left: none;
+    position: relative;
+}
+.resim2{
+    flex: 30%;
+    width: 100%;
+    background: url(../img/blogp2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.resim3{
+    flex: 30%;
+    background-color: red;
+    width: 100%;
+    background: url(../img/blogp3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.blogs .icerik a{
+    color: black;
+    font-size: 20px;
+    transition: .3s;
+    display: block;
+}
+.blogs .icerik a:hover{
+    text-decoration: none;
+    color: rgb(223, 184, 14);
+    
+}
+.blogs .icerik p{
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+   
+}
+.iconAyar{
+    position: absolute;
+    bottom: 15px;
+}
+/*Galeri Sayfası*/
+.galery{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ortak{
+    margin: 15px 15px 50px 15px;
+    flex: 30%;
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+    position: relative;
+    transition: .5s;
+    border-radius: 10px;
+}
+.ortak:hover{
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.gfoto1{
+    background: url(../img/resim1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto2{
+    background: url(../img/resim2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto3{
+    background: url(../img/resim3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto4{
+    background: url(../img/resim4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto5{
+    background: url(../img/resim5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto6{
+    background: url(../img/resim10.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto7{
+    background: url(../img/resim7.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto8{
+    background: url(../img/resim8.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.gfoto9{
+    background: url(../img/resim9.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.galery p{
+    position: absolute;
+    bottom: -50px;
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    color: black;
+}
+/*Hakkımızda Sayfası*/
+.hakkimda{
+    width: 84%;
+    margin: 40px auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.hIcerik{
+    width: 47%;
+    padding: 10px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+    cursor: pointer;
+    overflow: auto;
+}
+.hIcerik:hover{
+    transform: scale(1.1);
+}
+.hIcerik p{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+table,th,td {
+    margin-top: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    th, td{
+        padding : 20px;
+    }
+.hOrtak{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: .5s;
+}
+.hFoto{
+    background: url(../img/ppp.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hFoto2{
+    background: url(../img/pp2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.hFoto:hover{
+    transform: scale(.8);
+}
+.hFoto2:hover{
+    transform: scale(.8);
+}
+/*İletişim Sayfası*/
+.ileti{
+    width: 84%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+.ibilgi{
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    position: relative;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icn{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: rebeccapurple;
+}
+.frm{
+    width: 30%;
+    height: auto;
+}
+.frm input{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.frm a{
+    display: block;
+    padding: 10px;
+    background-color: rebeccapurple;
+    width: 40%;
+    text-align: center;
+    color: white;
+    transition: .5s;
+}
+.frm a:hover{
+    text-decoration: none;
+    opacity: .7;
+}
+.frm a:focus{
+    text-decoration: none;
+}
+.footerAyar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid black;
+}
+.footerAyar p{
+    color: black;
+}
+.footerAyar div img{
+    width: 100px !important;
+}
+/*Hizmetler Sayfası*/
+
+.hizmet{
+    width: 84%;
+    margin: 40px auto;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.hizmet1{
+    flex: 28%;
+    border-top: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
+    margin: 10px;
+    padding: 10px;
+}
+.hicn{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    font-size: 86px;
+}
+.hyazi{
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+}
+.btnAyar {
+    display: inline-block;
+    padding: 10px;
+    background-color: rebeccapurple;
+    width: 40%;
+    text-align: center;
+    color: white;
+    transition: .5s;
+}
+.btnAyar:hover{
+    text-decoration: none;
+    opacity: .7;
+    color: white;
+}
+.btnAyar:focus{
+    text-decoration: none;
+}
+.footer2{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    border-top: 1px solid black;
+}
+.footer2 p{
+    color: black;
+}
+.footer2 div img{
+    width: 100px !important;
+}
+/*Proje Sayfası*/
+
+.proje{
+    width: 84%;
+    margin: 40px auto;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+.proje1:hover{
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.proje1{
+    flex: 28%;
+    border-top: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
+    margin: 10px;
+    padding: 10px;
+}
+.grfk{
+    
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+    font-size: 86px;
+}
+.pyazi{
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+.header{
+    flex-direction: column;
+}
+.blogs{
+    flex-direction: column;
+    height: 400px;
+}
+.resim{
+    flex: 65%;
+}
+.resim2{
+    flex: 65%;
+}
+.resim3{
+    flex: 65%;
+}
+.icerik{
+    flex: 35%;
+}
+.galery{
+    flex-direction: row;
+}
+.ortak{
+    flex: 100%;
+    height: 350px;
+}
+.hakkimda{
+    flex-direction: column;
+    height: 700px;
+}
+.hIcerik{
+    width: 100%;
+    height: 200px;
+}
+.hOrtak{
+    margin: 50px 0;
+    width: 100%;
+    height: 500px;
+}
+.ileti{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 450px;
+}
+.ibilgi{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.frm{
+    width: 100%;
+}
+.footerAyar{
+    bottom: -140px;
+}
+.hizmet{
+    flex-direction: row;
+}
+.hizmet1{
+    flex: 100%;
+}
+.footer2{
+    margin-top: 500px;
+}
